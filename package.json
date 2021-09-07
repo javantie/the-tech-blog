@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "test": "jest",
-    "seeds": "node seeds/index.js"
+    "seeds": "node seeds/index.js",
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
@@ -22,5 +23,14 @@
   },
   "devDependencies": {
     "jest": "^25.1.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/javantie/the-tech-blog.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/javantie/the-tech-blog/issues"
+  },
+  "homepage": "https://github.com/javantie/the-tech-blog#readme"
 }
