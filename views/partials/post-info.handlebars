@@ -1,14 +1,14 @@
-<article class="post">
-  <div class="title">
+<article class="post border-2 border-yellow-900">
+  <div class="title font-semibold bg-yellow-900 text-gray-400 flex justify-between p-2">
   <h3>{{title}}</h3>
     <span>Posted by {{user.username}} on {{format_date created_at}}</span>
   </div>
-  <div class="text-info">
+  <div class="text-info p-1">
         <span>{{post_url}}</span>
   </div>
-  <div class="meta">
-    <a href="/post/{{id}}">{{comments.length}} {{format_plural "comment" comments.length}}</a>
-       | {{post.vote_count}} {{format_plural "Like" post.vote_count}}
+  <div class="meta bg-yellow-600">
+    <a class="font-bold pl-1" href="/post/{{id}}">{{comments.length}} {{format_plural "comment" comments.length}}</a>
+       | {{vote_count}} {{format_plural "Like" post.vote_count}}
 
   </div>
 </article>

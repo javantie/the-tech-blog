@@ -10,16 +10,8 @@ body, html {
   color: #333;
 }
 
-a {
-  text-decoration: none;
-  color: #225ca3;
-  font-weight: bold;
-  transition: color .1s;
-}
 
-a:hover {
-  color: #3486eb;
-}
+
 
 button {
   background-color: #225ca3;
@@ -32,25 +24,25 @@ button {
   border-radius: 5px;
 }
 
-button:hover {
+/* button:hover {
   background-color: #3486eb;
-}
+} */
 
 .post-list {
   margin: 0;
   padding: 0;
 }
 
-textarea, input {
+/* textarea, input {
   padding: .5%;
   border-radius: 5px;
   border: 1px solid #ccc;
-}
+} */
 
-textarea:focus, input:focus {
+/* textarea:focus, input:focus {
   outline: none;
   border: 1px solid #3486eb;
-}
+} */
 
 textarea {
   min-width: 40%;
@@ -74,7 +66,7 @@ form label {
   flex-direction: column;
 }
 
-header {
+/* header {
   border-bottom: 1px solid #ccc;
   display: flex;
   justify-content: space-between;
@@ -84,14 +76,14 @@ header {
 
 header h1 {
   font-size: 1em;
-}
+} */
 
 main {
   flex: 1;
   padding: 2% 4%;
 }
 
-.btn-no-style {
+/* .btn-no-style {
   background: none;
   border: none;
   padding: 0;
@@ -102,20 +94,20 @@ main {
   font-weight: bold;
   transition: color .1s;
   margin-left: 16px;
-}
+} */
 
-.btn-no-style:hover {
+/* .btn-no-style:hover {
   background: none;
   color: #3486eb;
-}
+} */
 
-.delete-post-btn {
+/* .delete-post-btn {
   background-color: #d41414;
 }
 
 .delete-post-btn:hover {
   background-color: #ff643d;
-}
+} */
 
 .post {
   margin-bottom: 2%;

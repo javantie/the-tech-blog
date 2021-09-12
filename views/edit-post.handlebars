@@ -1,25 +1,26 @@
 <article>
-  <a href="/dashboard"> &larr; Back to dashboard</a>
-  <h2>
+  {{!-- <a href="/dashboard"> &larr; Back to dashboard</a> --}}
+  <h2 class="bg-yellow-900 text-yellow-200 font-bold text-lg w-24 p-2 mb-2 rounded-md">
     Edit Post
   </h2>
-  <form class="edit-post-form">
+  <form class="edit-post-form w-8/12 border-4 border-yellow-900">
     <div>
-      <label for="post-title"> Title:</label>
-     <input name="post-title" type="text" value="{{post.title}}" />
-    </div>
-    <div>
-      <textarea name="post-body" value="{{post.title}}">
+    <label class="bg-yellow-900 text-yellow-200 font-bold text-2xl p-1" for="post-title"> Title:</label>
+     <input class="w-full border-4 border-blue-400 pl-1" name="post-title" type="text" value="{{post.title}}" />
+      <label class="bg-yellow-900 text-yellow-200 font-bold text-2xl p-2 " for="post-url">Content</label>
+      <textarea  class="w-full border-4 border-blue-400" name="post-body" value="{{post.title}}">
       {{post.post_url}}
       </textarea>
     </div>
-    <div>
+    <div class="pl-1">
       {{post.vote_count}} {{format_plural "Like" post.vote_count}}
       |
-      <a href="/post/{{post.id}}">{{post.comments.length}} {{format_plural "comment" post.comments.length}}</a>
+      <a class="font-bold" href="/post/{{post.id}}">{{post.comments.length}} {{format_plural "comment" post.comments.length}}</a>
     </div>
-    <button type="submit">Save post</button>
-    <button type="button" class="delete-post-btn">Delete post</button>
+    <div class="p-2">
+    <button class="bg-blue-400 hover:bg-blue-700 rounded-md px-4 py-2 font-bold text-lg" type="submit">Save Post</button>
+    <button class="bg-red-400 hover:bg-red-700 rounded-md px-4 py-2 font-bold text-lg" type="button" class="delete-post-btn">Delete post</button>
+    </div>
   </form>
 </article>
 
@@ -29,7 +30,7 @@
   </div>
 
   <div>
-    <button type="submit">add comment</button>
+    <button type="submit">Add omment</button>
   </div>
 </form>
 

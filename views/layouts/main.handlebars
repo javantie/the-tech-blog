@@ -1,39 +1,46 @@
-<!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Just Tech News</title>
-  <link rel="stylesheet" href="/stylesheets/style.css">
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Tech Blog</title>
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
-  <div class="wrapper">
-    <header>
-      <h1>
-        <a href="/">Just Tech News</a>
-      </h1>
-      <nav>
-        {{#if loggedIn}}
-        <a href="/dashboard">dashboard</a>
-        <button id="logout" class="btn-no-style">logout</button>
-        {{else}}
-        <a href="/login">login</a>
-        {{/if}}
-      </nav>
-    </header>
-    <main>
-      {{{ body }}}
-    </main>
-    <footer>
-      Thanks for visiting!
-    </footer>
-  </div>
-  
-  {{#if loggedIn}}
-  <script src="/javascript/logout.js"></script>
-  {{/if}}
-</body>
+  <body class="bg-yellow-200">
+    <div class="wrapper">
+      <header class="bg-yellow-900 pt-2">
+        <nav>
+          <nav class="text-yellow-200">
+            {{#if loggedIn}}
+              <a class="font-bold text-xl pl-8" href="/">Home</a>
+              <a class="font-bold text-xl pl-8" href="/dashboard">Dashboard</a>
+              <button class="font-bold text-xl pl-8" id="logout">Logout</button>
+            {{else}}
+              <a class="font-bold text-xl pl-8" href="/">Home</a>
+              <a class="font-bold text-xl pl-8" href="/login">Login</a>
+            {{/if}}
+          </nav>
+        </nav>
+         <h1 class="pl-8 font-extrabold text-2xl py-6">
+          <a class="bg-yellow-200 p-2 rounded-md" href="/">The Tech Blog</a>
+        </h1>
+      </header>
+      <main>
+        {{{body}}}
+      </main>
+      <footer>
+        Thanks for visiting!
+      </footer>
+    </div>
+
+    {{#if loggedIn}}
+      <script src="/javascript/logout.js"></script>
+    {{/if}}
+  </body>
 
 </html>
