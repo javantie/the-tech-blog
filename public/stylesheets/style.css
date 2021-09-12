@@ -2,18 +2,16 @@
   box-sizing: border-box;
 }
 
-body, html {
+/* body, html {
   height: 100%;
   padding: 0;
   margin: 0;
-  font-family: sans-serif;
-  color: #333;
-}
+} */
 
 
 
 
-button {
+/* button {
   background-color: #225ca3;
   border: 0;
   padding: 1%;
@@ -22,16 +20,16 @@ button {
   transition: background-color .1s;
   cursor: pointer;
   border-radius: 5px;
-}
+} */
 
 /* button:hover {
   background-color: #3486eb;
 } */
 
-.post-list {
+/* .post-list {
   margin: 0;
   padding: 0;
-}
+} */
 
 /* textarea, input {
   padding: .5%;
@@ -58,12 +56,12 @@ form label {
 }
 
 .wrapper {
-  width: 100%;
+  /* width: 100%;
   min-height: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
+  max-width: 1200px; */
+  /* margin: 0 auto; */
+  /* display: flex;
+  flex-direction: column; */
 }
 
 /* header {
@@ -77,11 +75,11 @@ form label {
 header h1 {
   font-size: 1em;
 } */
-
+/* 
 main {
   flex: 1;
   padding: 2% 4%;
-}
+} */
 
 /* .btn-no-style {
   background: none;
@@ -125,15 +123,15 @@ main {
   margin: -1.5% 0 2% 0;
 }
 
-.upvote-btn {
+/* .upvote-btn {
   background-color: #197d0f;
   transition: background-color .1s;
 }
 
 .upvote-btn:hover {
   background-color: #1f9c13;
-}
-
+} */
+/* 
 .comment-form {
   margin-bottom: 5%;
 }
@@ -151,15 +149,15 @@ main {
   font-size: 90%;
   margin-bottom: .5%;
   opacity: .6;
-}
+} */
 
-.new-post-form input {
+/* .new-post-form input {
   width: 300px;
-}
+} */
 
-.edit-post-form {
+/* .edit-post-form {
   margin-bottom: 5%;
-}
+} */
 
 footer {
   border-top: 1px solid #ccc;
