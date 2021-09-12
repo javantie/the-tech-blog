@@ -8,7 +8,7 @@
     <label class="bg-yellow-900 text-yellow-200 font-bold text-2xl p-1" for="post-title"> Title:</label>
      <input class="w-full border-4 border-blue-400 pl-1" name="post-title" type="text" value="{{post.title}}" />
       <label class="bg-yellow-900 text-yellow-200 font-bold text-2xl p-2 " for="post-url">Content</label>
-      <textarea  class="w-full border-4 border-blue-400" name="post-body" value="{{post.title}}">
+      <textarea  class="w-full border-4 border-blue-400" name="post-url" value="{{post.post_url}}">
       {{post.post_url}}
       </textarea>
     </div>
@@ -19,7 +19,7 @@
     </div>
     <div class="p-2">
     <button class="bg-blue-400 hover:bg-blue-700 rounded-md px-4 py-2 font-bold text-lg" type="submit">Save Post</button>
-    <button class="bg-red-400 hover:bg-red-700 rounded-md px-4 py-2 font-bold text-lg" type="button" class="delete-post-btn">Delete post</button>
+    <button class="delete-post-btn bg-red-400 hover:bg-red-700 rounded-md px-4 py-2 font-bold text-lg" type="button">Delete post</button>
     </div>
   </form>
 </article>
@@ -30,7 +30,7 @@
   </div>
 
   <div>
-    <button class="bg-yellow-400 px-4 py-2 rounded-md text-lg font-bold" type="submit">Add Comment</button>
+    <button class="bg-yellow-600 px-4 py-2 rounded-md text-lg font-bold  hover:bg-yellow-400" type="submit">Add Comment</button>
   </div>
 </form>
 
