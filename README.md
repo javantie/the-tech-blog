@@ -14,7 +14,7 @@ To install and run the application, you will need to install:
 
 Express, Sequelize, MySQL2, dotenv, espress-session,connect-session-sequelize
 # Usage
-​This application is a Full-Stack CMS-Style blog site. 
+​This application is a Full-Stack CMS-Style blog site. Visit Here: https://intense-lake-39358.herokuapp.com/
 # License
   This project is license under the  MIT license.
 # Test
