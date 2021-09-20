@@ -25,4 +25,4 @@ nodemon server.js, npm start
 If you have any questions about the repo, open an issue or contact [javantie](https://github.com/javantie) directly [javantieclarke@gmail.com](mailto:javantieclarke@gmail.com).
 
 # Screen Shot:
-![App Image](https://github.com/javantie/TeamPortfolioGenerator/blob/main/assets/images/screenshot.PNG)
+![App Image](https://github.com/javantie/the-tech-blog/blob/main/public/images/Capture.PNG)
